@@ -12,7 +12,7 @@ with open('model_kpi-65130701721.pkl', 'rb') as file:
 
 # Load your DataFrame
 # Replace 'your_data.csv' with the actual file name or URL
-df = pd.read_csv('Uncleaned_employees_final_dataset_65130701721.csv')
+df = pd.read_csv('Uncleaned_employees_final_dataset.csv')
 df = df.drop('employee_id', axis=1)
 
 # Streamlit App
